@@ -1,7 +1,7 @@
 APP_NAME = unit_converter
 SRC = main.cpp
 
-.PHONY: all build run clean test
+.PHONY: all build run clean test format
 
 all: build
 test: build
@@ -15,6 +15,9 @@ run: build
 
 clean:
 	rm -f $(APP_NAME)
+
+format:
+	clang-format -i main.cpp
 
 # Usage:
 #   make build   # Compile the app
