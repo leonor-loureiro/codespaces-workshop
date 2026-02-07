@@ -47,6 +47,8 @@ This will build the app and run the test_app.sh script.
 4. Update the `.devcontainer/Dockerfile` to install the `clang-format` package.
 5. Rebuild the container to pick up the changes.
 
+For an introduction to dev containers, see the [GitHub Docs](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers#using-a-predefined-dev-container-configuration).
+
 ## 2: Extend the unit_convert CLI using Copilot
 
 1. Using the Copilot Agent mode, add a new command to the unit converter CLI app.
